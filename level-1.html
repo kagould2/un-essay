@@ -43,8 +43,8 @@
     </style>
 </head>
 <body>
-    <h2>Welcome to Level 1: Revolution of the Spheres</h2>
-    <p>In this level, you will explore the world of Nicolaus Copernicus' "De Revolutionibus Orbium Coelestium" and its challenge to traditional cosmology. Before you begin, select a book from the timeline below to explore.</p>
+    <h2>Welcome to this timeline of banned books</h2>
+    <p>The Catholic church has been creating universal indexes of banned books since 1564. The most famous of these being Index Librorum Prohibitorum which was created in 1600 and was in use all the way until 1966.</p>
     
     <div class="timeline">
         <a href="copernicus.html">De Revolutionibus Orbium Coelestium (1543)</a>
@@ -56,6 +56,44 @@
 
     <script>
         // You can add JavaScript code here if needed
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Back Button</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="goBack()">Back</button>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
     </script>
 </body>
 </html>
